@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', 'sans-serif';
+    font-size: 20px;
+    font-weight: 500;
+    background-image: url('images/nick-hillier-yD5rv8_WzxA-unsplash.jpg');
+    background-size: cover;
+}
+
+.container {
+    position: absolute;
+    left: 500px;
+    top: 50px;
+    width: 360px;
+    height: 560px;
+    bottom: 50px;
+    background-color: rgba(240, 236, 225,1);
+    margin: 10;
+    border-radius: 40px;
+    backdrop-filter: none;
+}
+
+.screen {
+    position: absolute;
+    margin: 10px;
+    background-color: rgba(240, 236, 225,1);
+    height: 300px;
+    width: 320px;
+    left: 10px;
+    border-radius: 20px;
+}
+
+.screen__text-box {
+    display: inline-block;
+    position:absolute;
+    height: 50px;
+    width: 330px;
+    background-color: rgba(240, 236, 225,1);
+    top: 10px;
+    color: black;
+}
+
+.menu {
+    position: relative;
+    height: 32px;
+    width: 298px;
+    left: 31px;
+    background-color: rgba(240, 236, 225,1);
+    top: 120px;
+    border-radius: 1px;
+    border-bottom: 1px solid rgba(194, 187, 186,1);
+}
+
+.menu .material-icons {
+    color: green;
+    position: absolute;
+    right: 10px;
+    top: 4px;
+}
+
+.calculator-body {
+    position: absolute;
+    height: 380px;
+    width: 320px;
+    border-radius: 20px;
+    top: 158px;
+    left: 10px;
+    margin: 10px;
+    background-color: rgba(240, 236, 225,1);
+}
+
+.calculator-button {
+    position: relative;
+    width: 67px;
+    height: 56px;
+    border-radius: 21px;
+    background-color: rgba(255,2,255,0.1);
+    margin: 6px;
+    backdrop-filter: blur(30px);
+    background-clip: padding-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.structure {
+    height: 600px;
+    width: 900px;
+    position: absolute;
+    top: 700px;
+    left: 50px;
+    background-color: greenyellow;
+}
+
+.row {
+    position: relative;
+    max-width: 320px;
+    background-color:aqua;
+}
+
+.row:not(:last-child){
+    margin-bottom: 31px;
+}
+
+.col-1-4 {
+    position: relative;
+    width: 66px;
+    background-color: rgba(240, 236, 225,1);
+    color: white;
+    float: left;
+}
+
+.col-1-4:not(:last-child) {
+    margin-right: 17px;
+}
